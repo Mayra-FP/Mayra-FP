@@ -58,6 +58,7 @@ Key findings: Hospitalizations, number of hospitals, female population share, an
 # Let's connect
 
 [LinkedIn](https://www.linkedin.com/in/mayrafuentespineda)
+
 Madrid, Spain · Open to relocation
 
 

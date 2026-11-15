@@ -28,7 +28,7 @@ myringosclerosis.
 
 Key findings: ResNet50 (transfer learning) outperformed the from-scratch CNN, with a test F1-score of 0.98 vs. 0.89, generalizing better and more reliably distinguishing pathological from healthy eardrums.
 
-→ [View project](myringosclerosis-transfer-learning-cnn-python/)
+→ [View project](https://github.com/Mayra-FP/myringosclerosis-cnn-classifier)
 
 ## Master's Thesis — Industrial Proximity and Breast Cancer Risk (MCC-Spain)
 Master's in Biostatistics (UCM). Mixed-effects logistic regression models
@@ -38,7 +38,7 @@ Presented at SEE-APE 2023 (Porto).
 
 Key findings: Residential proximity (≤3 km) to industrial facilities was associated with a 30% excess risk of breast cancer (OR 1.30; 95% CI 1.00–1.67), more pronounced in premenopausal women and HER2+ tumors, with pollutant-specific risk profiles differing by menopausal status.
 
-→ [View project](breast-cancer-industrial-pollution-mixed-models-R/)
+→ [View project](https://github.com/Mayra-FP/breast-cancer-industrial-pollution-mixed-models-R)
 
 ## Bachelor's Thesis — COVID-19 Mortality Risk Factors in Spain
 Applied Statistics (UCM). PLS and Ridge regression models identifying
@@ -47,7 +47,7 @@ deaths across Spain's provinces in 2020.
 
 Key findings: Hospitalizations, number of hospitals, female population share, and population aged 80+ were associated with higher death counts, while detected cases, ICU admissions, and non-private hospitals were associated with lower counts.
 
-→ [View project](covid-risk-factors-ridge-regression-sas/)
+→ [View project](https://github.com/Mayra-FP/covid-risk-factors-ridge-regression-sas)
 
 # What I studied
 

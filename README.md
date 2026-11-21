@@ -10,14 +10,17 @@ Tech stack: R · Python · SAS · SQL · MongoDB
 # Experience
 
 ## Data Engineer | Carlos III Health Institute (ISCIII)
-* Designed and implemented an automated geospatial ETL pipeline in R integrating industrial pollution data from the PRTR-Spain registry with population cohort records.
-* Automated web scraping (httr2, xml2) of publicly available datasets: annual emissions and facility administrative data (XML), and the facility inventory, parsed from HTML into a structured dataset with geographic coordinates exported to XLSX (openxlsx).
-* Built a modular, orchestrator-based workflow with retry logic and error handling for data retrieval, cleaning, and transformation (data.table).
-* Linked pollution sources to participants’ residential locations through spatial analysis (sf) and generated individual-level environmental exposure variables, exported to .fst, .RData, .csv, and .dta for use across R and Stata.
-* Implemented automatic detection of newly published annual data and exposure assignment for newly added participants, scheduled with cron in the cohort’s production environment.
-* Collaborated with Darwin Geospatial to unify the project’s pipelines into a common, open-access GitHub framework that researchers can run locally and adapt to other individual-level datasets.
-* Learned geospatial analysis and large-data optimization in R on the job, using AI assistants to explore and validate efficient approaches.
-* Supported epidemiological research by streamlining environmental exposure assessment and data preparation.
+
+Goal: Support epidemiological research by automating environmental exposure assessment and data preparation.
+
+* Designed and built an end-to-end geospatial ETL pipeline in R linking industrial emissions from the PRTR-Spain registry to population cohort records.
+* Automated data ingestion through web scraping (httr2, xml2), turning XML and HTML sources into structured, geocoded datasets.
+* Built a modular, orchestrated workflow with retry logic and error handling, using data.table for high-performance transformations.
+* Generated individual-level exposure variables through spatial joins (sf), delivered in multiple formats (.fst, .csv, .dta, .RData) for R and Stata users.
+* Deployed the pipeline to production with cron scheduling and incremental processing: new annual releases and newly added participants are processed automatically.
+* Implemented data quality checks in Python on questionnaire data (duplicates, invalid and out-of-range values) and reported recurring error patterns so they could be fixed at source.
+* Co-developed with Darwin Geospatial an open-source GitHub framework that unifies the project's pipelines and can be reused with other individual-level datasets.
+* Cleaned and validated participant questionnaire data in Python (duplicates, invalid and out-of-range values), and reported recurring error patterns so they could be fixed at source.
 
 # Research and technical projects
 

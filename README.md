@@ -5,7 +5,11 @@ I’m a Data Engineer and Biostatistician with a background in applied statistic
 
 I build automated, reproducible data pipelines, integrate geospatial and environmental data, and apply statistical modelling and machine learning to research questions. I turn complex datasets into structured, analysis-ready resources that support reliable research.
 
-Tech stack: R · Python · SAS · SQL · MongoDB
+Tech stack:
+* Languages:          R, Python, SQL, SAS, Stata
+* Data engineering:   ETL pipelines, web scraping, workflow automation (cron), data integration, geospatial processing
+* Statistics & ML:    mixed-effects models, survival analysis, deep learning (transfer learning)
+* Tools:              Git, GitHub, Linux servers, VS Code
 
 # Experience
 
